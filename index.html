@@ -11,22 +11,29 @@
 
  <!-- Navigation Section 
 ---------------------------------------->
-    <header>
-        <div class="container">
-        <a class="logo" href="#">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg" alt="">
-          </a>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Sign In</li>
-                <li><button class="">Sign Up</button></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
+<header>
+    <section class="nav__container">
+        <div class="container row">
+      <button class="nav-toggle" aria-label="open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <a class="logo" href="#">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg" alt="">
+      </a>
+      <nav class="nav">
+        <ul class="nav__list nav__list--primary">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+        <ul class="nav__list nav__list--secondary">
+          <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+          <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign up</a></li>
+        </ul>
+      </nav>
+    </div>
+    </section>
+  </header>
 
 <!-- Hero Section 
 ---------------------------------------->
