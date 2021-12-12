@@ -138,6 +138,35 @@ nav {
     padding: 1em 0;
 } 
 
+/* Hero Styles End */
+
+/* Mobile First Section Styles */
+.mobilefirst__container {
+    background-color: #f1f1f1;
+    color: #3b4050;
+    padding: 1em 0;
+    text-align: center;
+}
+/* Mobile First Styles End */
+
+/* Hard Section Styles */
+.hard__container {
+    color: #3b4050;
+    padding: 1em 0;
+}
+
+.col {
+    background-color: #3b4050;
+    color: #ffffff;
+    text-align: center;
+    padding: 2em 0;
+    margin: 1em 0;
+}
+
+
+/* Hard Section Styles EnD */
+
+
 /* Media Queries */
 @media (min-width: 700px) {
     .nav-toggle {
@@ -165,5 +194,10 @@ nav {
     .row {
       display: flex;
       justify-content: space-between;
+      gap: 3em;
     }
+}
+
+@media (min-width: 1000px) {
+
 }
