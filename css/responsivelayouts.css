@@ -100,15 +100,15 @@ nav {
     list-style: none;
 }
   
-  .nav__list--primary {
+.nav__list--primary {
     margin-bottom: 2em;
-  }
+}
   
-  .nav__item {
+.nav__item {
     margin-top: .75rem;
-  }
+}
   
-  .nav__link {
+.nav__link {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
