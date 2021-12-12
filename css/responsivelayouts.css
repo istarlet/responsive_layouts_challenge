@@ -31,9 +31,9 @@ img {
 
 .nav {
     width: 100%;
-  }
+}
   
-  .nav-toggle {
+.nav-toggle {
     cursor: pointer;
     border: 0;
     width: 3rem;
@@ -46,59 +46,59 @@ img {
   
     position: absolute;
     left: 0;
-  }
+}
   
-  .nav-toggle:focus,
-  .nav-toggle:hover {
+.nav-toggle:focus,
+.nav-toggle:hover {
     opacity: 0.75;
-  }
+}
   
-  .hamburger {
+.hamburger {
     width: 50%;
     position: relative;
-  }
+}
   
-  .hamburger,
-  .hamburger::before,
-  .hamburger::after {
+.hamburger,
+.hamburger::before,
+.hamburger::after {
     display: block;
     margin: 0 auto;
     height: 3px;
     background: white;
-  }
+}
   
-  .hamburger::before,
-  .hamburger::after {
+.hamburger::before,
+.hamburger::after {
     content: "";
     width: 100%;
-  }
+}
   
-  .hamburger::before {
+.hamburger::before {
     transform: translateY(-6px);
-  }
+}
   
-  .hamburger::after {
+.hamburger::after {
     transform: translateY(3px);
-  }
+}
 
-  .nav {
+nav {
     visibility: hidden;
     height: 0;
     position: absolute;
     font-size: 1rem;
-  }
+}
   
-  .nav--visible {
+.nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
-  }
+}
   
-  .nav__list {
+.nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
+}
   
   .nav__list--primary {
     margin-bottom: 2em;
@@ -112,27 +112,35 @@ img {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-  }
+}
   
-  .nav__link:hover,
-  .nav__link:focus {
+.nav__link:hover,
+.nav__link:focus {
     opacity: .65;
-  }
+}
   
-  .nav__link--button {
+.nav__link--button {
     padding: .25em .75em;
     background: #fff;
     color: #23424a;
     border-radius: 100px;
-  }
+}
   
-  .logo {
+.logo {
     height: 30px;
-  }
-  /* Navigation Styles End */
+}
+/* Navigation Styles End */
 
-  /* Media Queries */
-  @media (min-width: 800px) {
+/* Hero Styles */
+.nav__container {
+    background-color: #2e323f;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+} 
+
+/* Media Queries */
+@media (min-width: 700px) {
     .nav-toggle {
       display: none;
     }
