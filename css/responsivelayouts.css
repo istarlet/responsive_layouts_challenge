@@ -136,7 +136,6 @@ nav {
     background-color: #3b4050;
     color: #ffffff;
     padding: 1em 0;
-    text-align: center;
 } 
 
 /* Media Queries */
@@ -167,3 +166,4 @@ nav {
       display: flex;
       justify-content: space-between;
     }
+}
