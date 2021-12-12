@@ -121,8 +121,8 @@ nav {
   
 .nav__link--button {
     padding: .25em .75em;
-    background: #fff;
-    color: #23424a;
+    background: #a59678;
+    color: #ffffff;
     border-radius: 100px;
 }
   
@@ -132,8 +132,8 @@ nav {
 /* Navigation Styles End */
 
 /* Hero Styles */
-.nav__container {
-    background-color: #2e323f;
+.hero__container {
+    background-color: #3b4050;
     color: #ffffff;
     padding: 1em 0;
     text-align: center;
