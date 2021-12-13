@@ -21,6 +21,10 @@ img {
     position: relative;
 }
 
+.light-brown {
+    color: #a59678;
+}
+
 /* Navigation Styles */
 .nav__container {
     background-color: #2e323f;
