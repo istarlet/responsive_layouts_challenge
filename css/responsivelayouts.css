@@ -47,11 +47,22 @@ img {
     text-transform: uppercase;
 }
 
+.oswald-30 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .oswald-90 {
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 1.2em;
+}
+
+.montserrat-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .montserrat-24 {
@@ -205,7 +216,7 @@ nav {
     background-color: #3b4050;
     color: #ffffff;
     text-align: center;
-    padding: 2em 2em;
+    padding: 1em 1em;
     gap: 1em;
     margin: 1em 0;
 }
@@ -222,20 +233,16 @@ nav {
 }
 
 
-
-
 /* Media Queries */
 
 @media (min-width: 700px) {
-
+.container {
+    width: 90%;
+}
     .flex-row {
         display: flex;
        gap: 1em;
     }
-    
-   
-   
-
 }
 
 @media (min-width: 1000px) {
@@ -268,8 +275,6 @@ nav {
 }
 
 .flex-row {
-    flex-direction: column;
+    flex-direction: column
 }
-
-
 }
