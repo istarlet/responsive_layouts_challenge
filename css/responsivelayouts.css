@@ -47,6 +47,11 @@ img {
     line-height: 1em;
 }
 
+.montserrat-24 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
 /* Navigation Styles */
 .nav__container {
     background-color: #2e323f;
