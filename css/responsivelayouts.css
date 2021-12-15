@@ -40,6 +40,13 @@ img {
     font-weight: 700;
 }
 
+.oswald-24 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .oswald-90 {
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
@@ -169,6 +176,14 @@ nav {
     padding: 1em 0;
 } 
 
+.btn {
+    border-radius: 100px;
+    background-color: #a59678;
+    color: #ffffff;
+    padding: .5em;
+    letter-spacing: .06em;
+}
+
 /* Hero Styles End */
 
 /* Mobile First Section Styles */
@@ -191,8 +206,11 @@ nav {
     color: #ffffff;
     text-align: center;
     padding: 2em 2em;
+    gap: 1em;
     margin: 1em 0;
 }
+
+
 
 
 /* Hard Section Styles EnD */
@@ -209,18 +227,14 @@ nav {
 /* Media Queries */
 
 @media (min-width: 700px) {
- .flex-row {
-     display: flex;
 
- }
-
- .flex-container {
-
-        width: 80%;
-        max-width: 1200px;
-        margin: 0 auto;
-     
+    .flex-row {
+        display: flex;
+       gap: 1em;
     }
+    
+   
+   
 
 }
 
@@ -254,7 +268,8 @@ nav {
 }
 
 .flex-row {
-    display: flex;
+    flex-direction: column;
 }
+
 
 }
