@@ -47,6 +47,12 @@ img {
     text-transform: uppercase;
 }
 
+.oswald-36 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .oswald-30 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
