@@ -266,11 +266,19 @@ nav {
     padding: 1em 0;
 }
 
-.footer__container ul {
-    list-style-type: none;
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
 }
 
+.space {
+    justify-content: space-between;
+}
 
+.winter {
+    width: 35%;
+}
 
 /* Media Queries */
 
@@ -282,6 +290,16 @@ nav {
         display: flex;
        gap: 1em;
     }
+
+    .flex-banana {
+        display: flex;
+    }
+
+    .flex-row {
+        flex-direction: row;
+    }
+
+  
 }
 
 @media (min-width: 1000px) {
@@ -314,6 +332,11 @@ nav {
 }
 
 .flex-row {
-    flex-direction: column
+    flex-direction: column;
 }
+
+.footer__row {
+    flex-direction: row;
+}
+
 }
