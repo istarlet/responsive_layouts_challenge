@@ -277,7 +277,7 @@ nav {
 }
 
 .winter {
-    width: 35%;
+    width: 100%;
 }
 
 /* Media Queries */
@@ -299,7 +299,9 @@ nav {
         flex-direction: row;
     }
 
-  
+  .winter {
+      width: 35%;
+  }
 }
 
 @media (min-width: 1000px) {
