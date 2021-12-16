@@ -19,6 +19,10 @@ img {
     max-width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
@@ -34,9 +38,19 @@ img {
     color: #a59678;
 }
 
+.center {
+    text-align: center;
+}
+
 .oswald-18 {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
+    font-weight: 700;
+}
+
+.oswald-21 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
     font-weight: 700;
 }
 
@@ -47,15 +61,21 @@ img {
     text-transform: uppercase;
 }
 
+.oswald-30 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .oswald-36 {
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
     font-weight: 700;
 }
 
-.oswald-30 {
+.oswald-48 {
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
 }
 
@@ -66,9 +86,19 @@ img {
     line-height: 1.2em;
 }
 
+.montserrat-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
 .montserrat-18 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+}
+
+.montserrat-21 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
 }
 
 .montserrat-24 {
@@ -228,9 +258,6 @@ nav {
     margin: 1em 0;
 }
 
-
-
-
 /* Hard Section Styles EnD */
 
 /* Footer Section Styles */
@@ -238,6 +265,11 @@ nav {
     background-color: #3b4050;
     padding: 1em 0;
 }
+
+.footer__container ul {
+    list-style-type: none;
+}
+
 
 
 /* Media Queries */
