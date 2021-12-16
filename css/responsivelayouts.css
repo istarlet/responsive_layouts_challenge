@@ -291,17 +291,12 @@ nav {
        gap: 1em;
     }
 
-    .flex-banana {
-        display: flex;
-    }
-
+  
     .flex-row {
         flex-direction: row;
     }
 
-  .winter {
-      width: 35%;
-  }
+ 
 }
 
 @media (min-width: 1000px) {
@@ -339,6 +334,9 @@ nav {
 
 .footer__row {
     flex-direction: row;
+}
+.winter {
+    width: 35%;
 }
 
 }
