@@ -41,67 +41,53 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.oswald-18 {
+.oswald-18, .oswald-21, .oswald-24, .oswald-30, .oswald-36, .oswald-48, .oswald-70,
+.oswald-90 {
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
     font-weight: 700;
 }
 
-.oswald-21 {
-    font-family: 'Oswald', sans-serif;
+.montserrat-16, .montserrat-18, .montserrat-21, 
+.montserrat-24 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.oswald-18,
+.montserrat-18 {
+    font-size: 18px;
+}
+
+.oswald-21, .montserrat-21 {
     font-size: 21px;
-    font-weight: 700;
 }
 
 .oswald-24 {
-    font-family: 'Oswald', sans-serif;
     font-size: 24px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
 .oswald-30 {
-    font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    font-weight: 700;
 }
 
 .oswald-36 {
-    font-family: 'Oswald', sans-serif;
     font-size: 36px;
-    font-weight: 700;
 }
 
 .oswald-48 {
-    font-family: 'Oswald', sans-serif;
     font-size: 48px;
-    font-weight: 700;
 }
 
 .oswald-70 {
-    font-family: 'Oswald', sans-serif;
     font-size: 70px;
-    font-weight: 700;
     line-height: 1.2em;
 }
 
 .montserrat-16 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
-.montserrat-18 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-}
-
-.montserrat-21 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
-}
-
 .montserrat-24 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
