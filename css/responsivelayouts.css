@@ -12,7 +12,6 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
 }
 
 img {
@@ -79,9 +78,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-.oswald-90 {
+.oswald-70 {
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 700;
     line-height: 1.2em;
 }
@@ -270,6 +269,7 @@ nav {
 .footer__row {
     display: flex;
     flex-direction: column;
+    gap: 1em;
 }
 
 .space {
@@ -286,17 +286,20 @@ nav {
 .container {
     width: 90%;
 }
-    .flex-row {
-        display: flex;
-       gap: 1em;
-    }
 
-  
-    .flex-row {
-        flex-direction: row;
-    }
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
 
- 
+.oswald-90 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
 }
 
 @media (min-width: 1000px) {
@@ -335,8 +338,16 @@ nav {
 .footer__row {
     flex-direction: row;
 }
+
 .winter {
-    width: 35%;
+    width: 40%;
+}
+
+.oswald-90 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.2em;
 }
 
 }
