@@ -91,11 +91,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navigation Styles */
-.nav__container {
+.nav__background {
     background-color: #2e323f;
     color: #ffffff;
-    padding: 1em 0;
     text-align: center;
+    padding: 2em;
 } 
 
 .nav {
@@ -204,15 +204,21 @@ nav {
 .hero__container {
     background-color: #3b4050;
     color: #ffffff;
-    padding: 1em 0;
-} 
+    padding: 3em 0;
+}
+
+.hero__item {
+    align-items: center;
+    margin-bottom: 2em;
+}
 
 .btn {
     border-radius: 100px;
     background-color: #a59678;
     color: #ffffff;
-    padding: .5em;
+    padding: .3em 2em;
     letter-spacing: .06em;
+    margin: 1em 0;
 }
 
 /* Hero Styles End */
@@ -221,7 +227,7 @@ nav {
 .mobilefirst__container {
     background-color: #f1f1f1;
     color: #3b4050;
-    padding: 1em 0;
+    padding: 3em 0;
     text-align: center;
 }
 
@@ -247,21 +253,22 @@ nav {
 /* Footer Section Styles */
 .footer__container {
     background-color: #3b4050;
-    padding: 1em 0;
+    padding: 3em 0;
 }
 
 
 .footer__row {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 3em;
+    padding-top: 4em;
 }
 
 .space {
     justify-content: space-between;
 }
 
-.winter {
+.about__container {
     width: 100%;
 }
 
@@ -324,7 +331,7 @@ nav {
     flex-direction: row;
 }
 
-.winter {
+.about__container {
     width: 40%;
 }
 
