@@ -231,12 +231,17 @@ nav {
     text-align: center;
 }
 
+
 /* Mobile First Styles End */
 
 /* Hard Section Styles */
 .hard__container {
     color: #3b4050;
     padding: 3em 0;
+}
+
+.hard__item {
+   width: 100%;
 }
 
 .col {
