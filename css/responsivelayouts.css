@@ -212,13 +212,22 @@ nav {
     margin-bottom: 2em;
 }
 
+
 .btn {
     border-radius: 100px;
-    background-color: #a59678;
+    background: #a59678;
     color: #ffffff;
-    padding: .3em 2em;
+    padding: .25em;
     letter-spacing: .06em;
     margin: 1em 0;
+    margin-right: 12.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .65;
 }
 
 /* Hero Styles End */
