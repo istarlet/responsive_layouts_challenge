@@ -217,10 +217,11 @@ nav {
     border-radius: 100px;
     background: #a59678;
     color: #ffffff;
-    padding: .25em 3em;
+    padding: .25em;
     letter-spacing: .06em;
     margin: 1em 0;
     margin-right: 12.5em;
+    margin-top: 2em;
     text-align: center;
     cursor: pointer;
 }
