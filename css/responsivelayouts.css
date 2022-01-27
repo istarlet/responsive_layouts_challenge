@@ -257,9 +257,14 @@ nav {
     background-color: #3b4050;
     color: #ffffff;
     text-align: center;
-    padding: 1em 1em;
-    gap: 1em;
-    margin: 1em 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: .5em 0;
+    
 }
 
 /* Hard Section Styles EnD */
@@ -339,6 +344,7 @@ nav {
 
 .flex-row {
     flex-direction: column;
+    gap: 1em;
 }
 
 .footer__row {
