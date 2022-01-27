@@ -208,7 +208,7 @@ nav {
 }
 
 .hero__item {
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 2em;
 }
 
