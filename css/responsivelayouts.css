@@ -230,6 +230,10 @@ nav {
     opacity: .65;
 }
 
+.align-middle {
+    align-items: center;
+}
+
 /* Hero Styles End */
 
 /* Mobile First Section Styles */

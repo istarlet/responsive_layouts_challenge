@@ -1,173 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kevin Powell Responsive Layouts Final Challenge</title>
-    <link rel="stylesheet" href="css/responsivelayouts.css" media="screen" >
-</head>
-<body>
-
- <!-- Navigation Section 
+    <link rel="stylesheet" href="css/responsivelayouts.css" media="screen" />
+  </head>
+  <body>
+    <!-- Navigation Section 
 ---------------------------------------->
-<header>
-    <section class="nav__background">
+    <header>
+      <section class="nav__background">
         <div class="container row">
-      <button class="nav-toggle" aria-label="open navigation">
-        <span class="hamburger"></span>
-      </button>
-      <a class="logo" href="#">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg" alt="">
-      </a>
-      <nav class="nav oswald-18">
-        <ul class="nav__list nav__list--primary">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-        </ul>
-        <ul class="nav__list nav__list--secondary">
-          <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
-          <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign up</a></li>
-        </ul>
-      </nav>
-    </div>
-    </section>
-  </header>
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+          </button>
+          <a class="logo" href="#">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/logo.svg"
+              alt=""
+            />
+          </a>
+          <nav class="nav oswald-18">
+            <ul class="nav__list nav__list--primary">
+              <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+            </ul>
+            <ul class="nav__list nav__list--secondary">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Sign In</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--button">Sign up</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
 
-<!-- Hero Section -->
+    <!-- Hero Section -->
     <main>
-        <section class="hero__container">
-            <div class="container row hero__item">
+      <section class="hero__container">
+        <div class="container row hero__item align-middle">
+          <h1 class="light-brown oswald-90 oswald-70">
+            <span class="white">Responsive layouts</span> don't have to be a
+            struggle
+          </h1>
 
-            <h1 class="light-brown oswald-90 oswald-70"><span class="white">Responsive layouts</span> don't have to be a struggle</h1>
-                
-            <div>
-            <p class="montserrat-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+          <div>
+            <p class="montserrat-24">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div class="light-brown oswald-24 btn">I want to learn</div>
+          </div>
         </div>
-            </div>
-        </section>
+      </section>
 
-<!-- Mobile First Section -->
-        <section class="mobilefirst__container">
-            <div class="container row mobilefirst__item">
-        
-            <div>
-                <p class="light-brown oswald-30">Mobile-first</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-            </div>
+      <!-- Mobile First Section -->
+      <section class="mobilefirst__container">
+        <div class="container row mobilefirst__item">
+          <div>
+            <p class="light-brown oswald-30">Mobile-first</p>
+            <p class="montserrat-18">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
 
-            <div class="">
-                <p class="light-brown oswald-30">Efficiant</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-            </div>
-            
-            <div class="">
-                <p class="light-brown oswald-30">Done right</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-            </div>
-    
+          <div class="">
+            <p class="light-brown oswald-30">Efficiant</p>
+            <p class="montserrat-18">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+
+          <div class="">
+            <p class="light-brown oswald-30">Done right</p>
+            <p class="montserrat-18">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
         </div>
-        </section>
+      </section>
 
-<!-- Hard Section
----------------------------------------->
-        <section class="hard__container">
-            <div class="container row">
-            <div class="">
-                <h2 class="light-brown oswald-36">It doesn't have to be so hard</h2>
-                <p class="montserrat-21">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.  
-                </p>
+      <!-- Hard Section -->
+      <section class="hard__container">
+        <div class="container row">
+          <div class="">
+            <h2 class="light-brown oswald-36">It doesn't have to be so hard</h2>
+            <p class="montserrat-21">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmond tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
             <img src="images/the-image.jpg" alt="" />
-            <p class="montserrat-21">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.  
-                </p>
-            </div>
-            
-           <aside class="flex-row">
-            <div class="col">
-                <p class="oswald-30">Break it down</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="col">
-                <p class="oswald-30">Work your way up</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-            <div class="col">
-                <p class="oswald-30">Break it down</p>
-                <p class="montserrat-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-        </aside>
-            </div>
-        </section>
+            <p class="montserrat-21">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmond tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
 
-        </main>
+          <aside class="flex-row">
+            <div class="col">
+              <p class="oswald-30">Break it down</p>
+              <p class="montserrat-18">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmond tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="col">
+              <p class="oswald-30">Work your way up</p>
+              <p class="montserrat-18">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmond tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="col">
+              <p class="oswald-30">Break it down</p>
+              <p class="montserrat-18">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmond tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
 
-<!-- Footer Section 
----------------------------------------->
+    <!-- Footer Section -->
     <footer class="footer__container">
-        <section class="container">
-            <h3 class="white oswald-48 center">Just scratching the surface</h3>
-            <div class="footer__row space">
-            
-          
-                <div class="about__container">
-                <h4 class="light-brown oswald-21">About our company</h4>
-                <p class="montserrat-16 white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                </p>
-            </div>
-        
-        
-            <div class="">
-                <h4 class="light-brown oswald-21">Getting around</h4>
-                <p class="montserrat-16 white">Home</p>
-                <p class="montserrat-16 white">About</p>
-                <p class="montserrat-16 white">Contact</p>
-            </div>
+      <section class="container">
+        <h3 class="white oswald-48 center">Just scratching the surface</h3>
+        <div class="footer__row space">
+          <div class="about__container">
+            <h4 class="light-brown oswald-21">About our company</h4>
+            <p class="montserrat-16 white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmond tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
 
-            <div class="">
-                <h4 class="light-brown oswald-21">Other things</h4>
-                <p class="montserrat-16 white">Lorem ipsum</p>
-                <p class="montserrat-16 white">Dolor</p>  
-                <p class="montserrat-16 white">Sit amet</p>
-                <p class="montserrat-16 white">Consectetur</p>
-            </div>
+          <div class="">
+            <h4 class="light-brown oswald-21">Getting around</h4>
+            <p class="montserrat-16 white">Home</p>
+            <p class="montserrat-16 white">About</p>
+            <p class="montserrat-16 white">Contact</p>
+          </div>
 
-            <div>
-                <h4 class="light-brown oswald-21">And more</h4>
-                <p class="montserrat-16 white">Lorem ipsum</p>
-                <p class="montserrat-16 white">Dolor</p>  
-                <p class="montserrat-16 white">Sit amet</p>
-                <p class="montserrat-16 white">Consectetur</p>
-            </div>
-            
-            </div>
-        </section>
+          <div class="">
+            <h4 class="light-brown oswald-21">Other things</h4>
+            <p class="montserrat-16 white">Lorem ipsum</p>
+            <p class="montserrat-16 white">Dolor</p>
+            <p class="montserrat-16 white">Sit amet</p>
+            <p class="montserrat-16 white">Consectetur</p>
+          </div>
+
+          <div>
+            <h4 class="light-brown oswald-21">And more</h4>
+            <p class="montserrat-16 white">Lorem ipsum</p>
+            <p class="montserrat-16 white">Dolor</p>
+            <p class="montserrat-16 white">Sit amet</p>
+            <p class="montserrat-16 white">Consectetur</p>
+          </div>
+        </div>
+      </section>
     </footer>
 
     <!-- Footer Section End
 ---------------------------------------->
-    <script src="js/main.js"></script> 
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
